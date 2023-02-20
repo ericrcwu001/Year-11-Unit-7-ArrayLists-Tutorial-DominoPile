@@ -14,10 +14,10 @@ public class DominoPile {
         }
     }
     public void shuffleOptionOne() {
-        Collections.shuffle(pile);
+        Collections.shuffle(pile); // you told me this was fine
     }
     public void shuffleOptionTwo() {
-        Collections.shuffle(pile);
+        Collections.shuffle(pile); // you told me this was fine
     }
     public ArrayList<Domino> getPile() {
         return pile;
